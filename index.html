@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Poney-Club des 4 Chemins – Sartrouville</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Poney-Club des 4 Chemins</h1>
+    <p>23 rue de Thann, 78500 Sartrouville</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#presentation">Présentation</a></li>
+      <li><a href="#galerie">Galerie</a></li>
+      <li><a href="#tarifs">Tarifs</a></li>
+      <li><a href="#horaires">Horaires</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="presentation">
+      <h2>Présentation</h2>
+      <p>Le Poney-Club des 4 Chemins est un lieu convivial situé à Sartrouville. Nous accueillons les cavaliers de tous âges, du baby-poney aux cavaliers confirmés, dans un cadre verdoyant et familial.</p>
+      <p>Nos moniteurs diplômés d’État vous accompagnent dans l’apprentissage, la détente et la découverte de l’équitation en toute sécurité.</p>
+    </section>
+
+    <section id="galerie">
+      <h2>Galerie</h2>
+      <div class="images">
+        <img src="https://via.placeholder.com/400x250?text=Club+Vue" alt="Vue du club">
+        <img src="https://via.placeholder.com/400x250?text=Poney+au+pré" alt="Poney au pré">
+        <img src="https://via.placeholder.com/400x250?text=Cours+enfants" alt="Cours enfants">
+      </div>
+      <p><em>👉 Pour ajouter vos vraies images :</em> remplacez les liens <code>src="https://via.placeholder.com..."</code> par l’URL de vos photos (hébergées sur GitHub, votre site, ou dans un dossier <code>/images</code> local).</p>
+    </section>
+
+    <section id="tarifs">
+      <h2>Tarifs</h2>
+      <table>
+        <tr><th>Activité</th><th>Tarif</th></tr>
+        <tr><td>Baby-poney (30 min)</td><td>20 €</td></tr>
+        <tr><td>Cours collectif (1h)</td><td>30 €</td></tr>
+        <tr><td>Stage vacances (5 jours)</td><td>250 €</td></tr>
+        <tr><td>Pension poney / mois</td><td>350 €</td></tr>
+        <tr><td><strong>Inscription annuelle</strong></td><td><strong>450 €</strong></td></tr> <!-- Nouvelle ligne ajoutée -->
+      </table>
+    </section>
+
+    <section id="horaires">
+      <h2>Horaires d'ouverture</h2>
+      <ul>
+        <li>Lundi : Fermé</li>
+        <li>Mardi à Vendredi : 10h – 19h</li>
+        <li>Samedi : 9h – 18h</li>
+        <li>Dimanche : 9h – 13h</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <form id="contactForm">
+        <label>Nom :</label>
+        <input type="text" name="nom" required>
+        <label>Email :</label>
+        <input type="email" name="email" required>
+        <label>Message :</label>
+        <textarea name="message" rows="4" required></textarea>
+        <button type="submit">Envoyer</button>
+      </form>
+
+      <div class="map">
+        <h3>Nous trouver</h3>
+        <iframe 
+          src="https://maps.google.com/maps?q=23%20Rue%20de%20Thann%20Sartrouville&t=&z=15&ie=UTF8&iwloc=&output=embed"
+          width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Poney-Club des 4 Chemins – Tous droits réservés</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
