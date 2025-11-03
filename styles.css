@@ -1,0 +1,130 @@
+/* --- Thème champêtre vert + marron --- */
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f9f6f1;
+  color: #3b2f1e;
+}
+
+/* --- Header --- */
+header {
+  background-color: #5c3d1e;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+/* --- Navigation --- */
+nav {
+  background-color: #3b2f1e;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 1rem;
+  display: block;
+  transition: background 0.3s;
+}
+nav a:hover {
+  background-color: #4f7342;
+}
+
+/* --- Sections --- */
+section {
+  padding: 2rem 1rem;
+  max-width: 900px;
+  margin: auto;
+}
+section h2 {
+  color: #4f7342;
+  border-bottom: 2px solid #4f7342;
+  padding-bottom: 0.5rem;
+}
+
+/* --- Galerie --- */
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+.images img {
+  border-radius: 8px;
+  max-width: 280px;
+  height: auto;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+/* --- Tableau tarifs --- */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+th, td {
+  border: 1px solid #c8b798;
+  padding: 0.8rem;
+}
+th {
+  background-color: #4f7342;
+  color: white;
+}
+
+/* --- Horaires --- */
+#horaires ul {
+  list-style: none;
+  padding-left: 0;
+}
+#horaires li {
+  padding: 0.3rem 0;
+}
+
+/* --- Formulaire --- */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin-bottom: 2rem;
+}
+form input, form textarea {
+  border: 1px solid #b8a78b;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+form button {
+  background-color: #4f7342;
+  color: white;
+  border: none;
+  padding: 0.8rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+form button:hover {
+  background-color: #3b2f1e;
+}
+
+/* --- Carte --- */
+.map iframe {
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+/* --- Footer --- */
+footer {
+  background-color: #3b2f1e;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
